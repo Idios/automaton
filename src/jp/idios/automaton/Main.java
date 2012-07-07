@@ -5,7 +5,6 @@ public class Main {
 	private State current = State.INITIAL;
 
 	private void start() {
-		// Do something...
 		current = current.accept();
 	}
 

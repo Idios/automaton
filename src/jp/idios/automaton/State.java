@@ -13,6 +13,18 @@ enum State {
 	 */
 	INITIAL {
 		@Override
+		public State run() {
+			return RUNNING;
+		}
+
+		@Override
+		public State accept() {
+			return ACCEPTED;
+		}
+	},
+
+	RUNNING {
+		@Override
 		public State accept() {
 			return ACCEPTED;
 		}
@@ -26,7 +38,16 @@ enum State {
 	;
 
 	/**
-	 * To accept machine.
+	 * To run the machine
+	 * 
+	 * @return
+	 */
+	public State run() {
+		throw new IllegalStateException();
+	}
+
+	/**
+	 * To accept the machine.
 	 * 
 	 * @return {@value #ACCEPTED}
 	 */

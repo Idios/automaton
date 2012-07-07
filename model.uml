@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_NqU9UMg7EeGeTvALL5wN8A" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_Nt_8YMg7EeGeTvALL5wN8A" name="StateMachine">
+    <region xmi:id="_NuRCIMg7EeGeTvALL5wN8A" name="Region0">
+      <transition xmi:id="_xXdIIMg7EeGeTvALL5wN8A" name="accept" source="_WO60kMg7EeGeTvALL5wN8A" target="_qL0A0Mg7EeGeTvALL5wN8A"/>
+      <transition xmi:id="__MWwgMg9EeGeTvALL5wN8A" name="run" source="_WO60kMg7EeGeTvALL5wN8A" target="_5_V5EMg9EeGeTvALL5wN8A"/>
+      <transition xmi:id="_BW0c8Mg-EeGeTvALL5wN8A" name="accept" source="_5_V5EMg9EeGeTvALL5wN8A" target="_qL0A0Mg7EeGeTvALL5wN8A"/>
+      <subvertex xmi:type="uml:State" xmi:id="_PxznMMg7EeGeTvALL5wN8A" name="INITIAL"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_WO60kMg7EeGeTvALL5wN8A" name="INITIAL"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ZmOuoMg7EeGeTvALL5wN8A" name="ACCEPTED"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_qL0A0Mg7EeGeTvALL5wN8A" name="ACCEPTED"/>
+      <subvertex xmi:type="uml:State" xmi:id="_5_V5EMg9EeGeTvALL5wN8A" name="RUNNING"/>
+    </region>
+  </packagedElement>
+</uml:Model>
